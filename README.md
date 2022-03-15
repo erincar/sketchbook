@@ -1,40 +1,27 @@
-# create-svelte
+# sketchbook
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+My interactive sketchbook, powered by [SvelteKit](https://github.com/sveltejs/kit)
+, [Three.js](https://github.com/mrdoob/three.js), and potentially more in the future.
 
-## Creating a project
+## TODO
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [ ] Skeleton page & Styling
+- [ ] Sketchbook cover page
+- [ ] Sketch Routing with slugs
+- [ ] Three.js
+- [ ] Phaser / Other Canvas wrapper?
+- [ ] Physics Engine?
+- [ ] Procedural Audio: WebAudio API? Library?
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+## Pages
 
-# create a new project in my-app
-npm init svelte@next my-app
+Format:
+
+```markdown
+### 0. Page Title, _Date_
+
+[Image]
+[Description]
+
+<!-- Maybe use HTML to make two columns -->
 ```
-
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
