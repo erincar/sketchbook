@@ -10,9 +10,5 @@ body {
 	/* Appearance */
 	@apply bg-rose-200;
 	/* Typography */
-	@apply text-sky-700 text-base leading-normal;
-
-	& h1 {
-		@apply text-4xl;
-	}
+	@apply text-sky-100 text-base leading-normal;
 }
