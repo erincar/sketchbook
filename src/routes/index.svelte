@@ -2,7 +2,7 @@
 
 <p>The cover page will be here eventually, and the sketches will follow.</p>
 
-<style scss>
+<style lang="scss">
 	h1 {
 		@apply text-sky-700 text-7xl;
 	}
